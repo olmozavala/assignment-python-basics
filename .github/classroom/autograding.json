@@ -23,7 +23,7 @@
       {
       "name": "tnote",
       "setup": "sudo -H pip3 install pytest testbook jupyter-client",
-      "run": "pytest -v --no-header tests/testnotebook.py",
+      "run": "jupyter kernelspec list",
       "input": "",
       "output": "",
       "comparison": "included",
