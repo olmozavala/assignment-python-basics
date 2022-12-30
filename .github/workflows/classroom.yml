@@ -14,10 +14,14 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        python-version: [ 3.6, 3.7, 3.8, 3.9, "3.10.0-rc.2" ]
+        python-version: [3.8]
     env:
       OS: ubuntu-latest
       PYTHON: "3.8"
     steps:
       - uses: actions/checkout@v2
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.python-version }}
       - uses: education/autograding@v1
