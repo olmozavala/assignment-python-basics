@@ -1,6 +1,4 @@
 def hello_world():
     return "Hello World!"
-
-
-
-x  = 2
+def second():
+    return "Hello World!"
