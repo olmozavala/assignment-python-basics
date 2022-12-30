@@ -22,7 +22,7 @@
     },
       {
       "name": "tnote",
-      "setup": "sudo -H pip3 install pytest testbook python3",
+      "setup": "sudo -H pip3 install pytest testbook python",
       "run": "pytest -v --no-header tests/testnotebook.py",
       "input": "",
       "output": "",
