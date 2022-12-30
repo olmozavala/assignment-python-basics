@@ -23,7 +23,7 @@
       {
       "name": "tnote",
       "setup": "sudo -H pip3 install pytest testbook",
-      "run": "pytest -v --no-header tests/hellonotebook.py",
+      "run": "pytest -v --no-header tests/testnotebook.py",
       "input": "",
       "output": "",
       "comparison": "included",
