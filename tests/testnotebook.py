@@ -3,4 +3,4 @@ from testbook import testbook
 @testbook('mynote.ipynb', execute=True)
 def test_second(tb):
     func = tb.ref("mysum")
-    assert func(3,4) == 2
+    assert func(3,4) == 7
