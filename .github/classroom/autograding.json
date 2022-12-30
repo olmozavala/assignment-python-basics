@@ -19,6 +19,16 @@
       "comparison": "included",
       "timeout": 10,
       "points": 8
+    },
+      {
+      "name": "tnote",
+      "setup": "sudo -H pip3 install pytest testbook",
+      "run": "pytest -v --no-header tests/hellonotebook.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 8
     }
   ]
 }
